@@ -4,12 +4,19 @@ import cors from 'cors';
 import mongoose from 'mongoose';
 import dotenv from "dotenv";
 import { mainRoute } from './routes/index.js';
-import assert from 'assert';
 import SwaggerUI from 'swagger-ui-express';
-import swaggerDocument from './swagger.json' assert {type: 'json'} ;
+
+import { createRequire } from "module";          
+const require = createRequire(import.meta.url);
+const swaggerDocument = require("./swagger.json");
+
+// import assert from 'assert';
+// import swaggerDocument from "./swagger.json" assert { type: "json"};
 
 const { auth, requiresAuth } = pkg;
 import pkg from 'express-openid-connect';
+
+
 
 
 const app = express();
