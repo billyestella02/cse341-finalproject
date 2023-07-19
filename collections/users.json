@@ -1,0 +1,29 @@
+[
+    {
+        "firstName": "Billy",
+        "lastName": "Estella",
+        "mobile": "+639151239090",
+        "email": "billyestella@email.com",
+        "password": "baUKloTze123",
+        "cart": [],
+        "notifications": []
+    },
+    {
+        "firstName": "Light",
+        "lastName": "Yagami",
+        "mobile": "+639305559000",
+        "email": "lightyagami@email.com",
+        "password": "shKgamI011",
+        "cart": [],
+        "notifications": []
+    },
+    {
+        "firstName": "Johan",
+        "lastName": "Liebert",
+        "mobile": "+639227704444",
+        "email": "johanliebert@email.com",
+        "password": "511kindErHeiM",
+        "cart": [],
+        "notifications": []
+    }
+]

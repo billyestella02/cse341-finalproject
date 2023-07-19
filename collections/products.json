@@ -1,0 +1,62 @@
+[
+    {
+        "product": "pillow",
+        "name": "Premium Goose Down Pillow",
+        "description": "This is a luxurious and ultra-soft material from duck and goose underbellies.",
+        "type": "down",
+        "size": "queen",
+        "color": "lilac dreamer",
+        "price": 800.00,
+        "stock": 100
+    },
+    {
+        "product": "pillow",
+        "name": "Gel Memory Foam Pillow",
+        "description": "This is pain-relieving and contours well to your head and neck. The material responds to your movement quickly and cradles your curves.",
+        "type": "memory foam",
+        "size": "king",
+        "color": "white",
+        "price": 1499.00,
+        "stock": 50
+    },
+    {
+        "product": "pillow",
+        "name": "Microbead Roll Pillow",
+        "description": "Microbeads, also known as unexpanded polystyrene beads (EPS) are a squishy, contouring pillow fill.",
+        "type": "micro bead",
+        "size": "standard",
+        "color": "ash gray",
+        "price": 99.00,
+        "stock": 125
+    },
+    {
+        "product": "pillow",
+        "name": "Woolino Premium Wool Toddler Pillow",
+        "description":  "The Woolino Premium Wool Pillow is Oeko-Tex Standard 100 certified [15.HCN.66088] - ensuring that the product is free from harmful substances. Made with high-quality, Woolmark certified grade 'A' Australian wool filling and a soft, white sateen cotton shell cover.",
+        "type": "wool",
+        "size": "euro",
+        "color": "ash gray",
+        "price": 45.00,
+        "stock": 70
+    },
+    {
+        "product": "mattress",
+        "name": "LINENSPA 8 Inch Memory Foam and Innerspring Hybrid Mattress",
+        "description":  "The contouring comfort of memory foam and the durable, bouncy feel of steel springs come together in one hybrid mattress to create our most popular mattress ever.",
+        "type": "hybrid",
+        "size": "twin",
+        "color": "white",
+        "price": 125.00,
+        "stock": 35
+    },
+    {
+        "product": "mattress",
+        "name": "Premium DreamLux Latex Spring Mattress",
+        "description":  "Premium DreamLux Luxury Spring Mattress, Eco-Friendly, Hypoallergenic Natural Latex for breathability, better contouring, and maximum support system. Made with Natural Latex + Individually Packed InnerSpring Technology. Compared to other brands, the DreamLux is noticeably thicker at 11.8 inches, providing enhanced strength and durability.",
+        "type": "latex",
+        "size": "queen",
+        "color": "off white",
+        "price": 295.00,
+        "stock": 20
+    }
+]
