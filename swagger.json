@@ -2,10 +2,10 @@
   "swagger": "2.0",
   "info": {
     "title": "CSE341 Final Project API",
-    "description": "A simple API for a basic E-comerce web app",
+    "description": "A simple API for a basic E-commerce web app",
     "version": "1.0.0"
   },
-  "host": "cse341-final-project.onrender.com",
+  "host": "cse341-final-project-de7s.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
