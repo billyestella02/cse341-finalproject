@@ -1,6 +1,8 @@
 import Joi from "joi";
 
 const notificationSchema = Joi.object({
+    _id: Joi.required(),
+    
     message: Joi.string().max(100).required(),
 
     status: Joi.string().valid(

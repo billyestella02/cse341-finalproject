@@ -1,6 +1,8 @@
 import Joi from "joi";
 
 const cartSchema = Joi.object({
+    _id: Joi.required(),
+    
     products: Joi.array().items(
         Joi.object({
             product: Joi.required(),

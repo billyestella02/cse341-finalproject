@@ -1,6 +1,8 @@
 import Joi from "joi";
 
 const productSchema = Joi.object({
+    _id: Joi.required(),
+    
     product: Joi.string().required().valid(
         'pillow', 
         'mattress'
