@@ -3,8 +3,8 @@ import Joi from "joi";
 let pattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
 
 const userSchema = Joi.object({
-    _id: Joi.required(),
-    
+    _id: Joi.any(),
+
     firstName: Joi.string().min(3).required(),
 
     lastName: Joi.string().min(3).required(),
